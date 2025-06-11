@@ -95,17 +95,6 @@ python main.py
 
 **Preview Implementation**: [Demo APK](https://drive.google.com/file/d/1Fl-cpigO6duf8Nz68-Gum1jm7R6nuDgm/view?usp=drivesdk)
 
-## Development Team
-
-**Group 11 - Institut Teknologi Del (2025)**
-- Destina Manurung (11322004) - ML Engineering
-- Christian Gultom (11322036) - Data Science  
-- Hagai Sianturi (11322063) - Mobile Development
-
-## References
-
-- [Training Notebook](https://colab.research.google.com/drive/m4in.ipynb)
-- [TFLite Flutter Docs](https://pub.dev/packages/tflite_flutter)
 - Dataset: Eggs3 v1 (Roboflow Universe)
 
 ---
