@@ -1,0 +1,36 @@
+name: eggclassifierapp
+description: "A new Flutter project."
+publish_to: "none" # This is a private project, not published to pub.dev.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.11.0 # TensorFlow Lite for Flutter
+  image_picker: ^1.1.2 # For picking images from gallery or camera
+  cupertino_icons: ^1.0.8 # iOS-style icons
+  tflite_flutter_helper_plus: ^0.0.2 # Helper library for TensorFlow Lite
+  image: ^3.3.0 # For image manipulation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # For testing Flutter apps
+  flutter_lints: ^5.0.0 # Linting rules for Flutter
+  flutter_launcher_icons: ^0.11.0 # For generating app launcher icons
+
+flutter:
+  uses-material-design: true
+
+  # List of assets used in the application
+  assets:
+    - assets/final_model.tflite
+
+# Configuration for flutter_launcher_icons
+flutter_icons:
+  android: true # Generate launcher icons for Android
+  ios: true # Generate launcher icons for iOS
+  image_path: assets/app_icon.png # Path to the app icon image
